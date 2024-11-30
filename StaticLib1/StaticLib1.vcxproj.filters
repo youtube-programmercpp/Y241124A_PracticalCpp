@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RAII">
+      <UniqueIdentifier>{1bfe150d-3e85-4d16-9779-1ddac45c4a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAII\WinApi">
+      <UniqueIdentifier>{447f591b-a349-4933-8157-cc6280957eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAII\Deleter">
+      <UniqueIdentifier>{3a28adb6-c6e9-4f9a-85ad-80b0cd015782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAII\Deleter\WinApi">
+      <UniqueIdentifier>{10ee248a-16cc-4ff8-a51d-fcfc8e3eaa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{8f0f335d-a8ad-43cd-a50d-fdba0fb27998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAII\Deleter\Crt">
+      <UniqueIdentifier>{899b9446-3348-48a4-afaa-c6b003ab2191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAII\Crt">
+      <UniqueIdentifier>{df3e01e0-fcd5-4dfd-9893-b8fb21e0cd40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RAII\WinApi\CloseHandle.h">
+      <Filter>RAII\WinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\unique_obj.h">
+      <Filter>RAII</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\Deleter\WinApi\CloseHandle.h">
+      <Filter>RAII\Deleter\WinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Error\Source.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Error\WinApi.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\Deleter\WinApi\CloseServiceHandle.h">
+      <Filter>RAII\Deleter\WinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\WinApi\CloseServiceHandle.h">
+      <Filter>RAII\WinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\Deleter\Crt\fclose.h">
+      <Filter>RAII\Deleter\Crt</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\Deleter\Crt\_close.h">
+      <Filter>RAII\Deleter\Crt</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\Crt\_close.h">
+      <Filter>RAII\Crt</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII\Crt\fclose.h">
+      <Filter>RAII\Crt</Filter>
+    </ClInclude>
+    <ClInclude Include="Error\verify.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Error\Crt.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
